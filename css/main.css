@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap");
+
+.oleo-script-swash-caps-bold {
+	font-family: "Oleo Script Swash Caps", system-ui;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.square-card {
+	position: relative;
+}
+
+.card-caption {
+	position: absolute;
+	width: 100%;
+	top: 80%;
+	right: 0%;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 4px #000;
+}
+
+#map {
+	max-width: 50rem;
+	height: 30rem;
+}
+
+@media (max-width: 768px) {
+	.card-caption {
+		font-size: 0.88rem;
+	}
+	#map {
+		width: 100%;
+		height: 20rem;
+	}
+}
